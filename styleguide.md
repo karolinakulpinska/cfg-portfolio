@@ -12,3 +12,4 @@ dirty-green: #C5D39C;
 deep-yellow: #FEC548;
 dirty-blue: #94B6FF;
 pastel-purple: #D0CCFF;
+deep-blue: #2A7CE0;
