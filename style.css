@@ -10,7 +10,7 @@ body {
   color: #383838;
 }
 
-.header {
+#header {
   width: 100%;
   height: 100vh;
   background-image: url(./images/hero-bg.png);
@@ -82,4 +82,16 @@ code {
 
 .draw-font {
   font-family: Charmonman;
+}
+
+/* ABOUT */
+
+#about {
+  padding: 80px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
