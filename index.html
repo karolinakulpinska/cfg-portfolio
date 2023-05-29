@@ -51,14 +51,65 @@
           <img src="./images/about-bg.png" alt="profile picture with colorful graphics">
         </div>
         <div class="about-col-2">
-          <h1>Hello, my name is Karolina Kulpinska <br>
+          <h1 class="subtitle">Hello, my name is Karolina Kulpinska <br>
           and I'm a front-end web developer <br>
           based in Accrington, UK.</h1>
+          <p>I have recently finished the Intro to Web Dev Kickstarter by CodeFirstGirls and I'm ready to play! With a background in art & design, I've got a diverse set of skills ranging from illustration and art, throughout graphic design, all the way to HTML, CSS & JavaScript. I'm a well organised person, committed and with an excellent attention to detail. I'm also ambitious and good at achieving deadlines and prioritizing tasks.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Front-End Web Development</span><br>HTML/CSS/JavaScript</li>
+              <li><span>Graphic Design</span><br>Adobe Suite</li>
+              <li><span>Illustration</span><br>Traditional/Digital Art</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2023-current</span><br>Lorem ipsum dolor sit.</li>
+              <li><span>2022-2023</span><br>Amet consectetur adipisicing elit.</li>
+              <li><span>2021-2022</span><br>Impedit voluptate ex natus maxime nesciunt.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2024</span><br>CFG Degree by CodeFirstGirls</li>
+              <li><span>2023</span><br>Intro to Python Kickstarter by CodeFirstGirls</li>
+              <li><span>2023</span><br>Intro to Web Dev Kickstarter by CodeFirstGirls</li>
+              <li><span>2015</span><br>BA in Graphic Design at Academy of Fine Arts in Łódź, Poland</li>
+            </ul>
+          </div>
         </div>
       </div>
 
     </div> 
   </div>
   
+  <!-- JavaScript functions and variables -->
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      // hides the tab underline:
+      for(
+        tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      // hides the contents of the tab:
+      for(
+        tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      // displays underline when clicked:
+      event.currentTarget.classList.add("active-link");
+      // displays tab contents when clicked:
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
 </body>
 </html>

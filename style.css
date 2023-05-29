@@ -54,7 +54,7 @@ nav ul li a::after {
   content: '';
   width: 0;
   height: 3px;
-  background: #fec548;
+  background: #3cb6b8;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -66,18 +66,21 @@ width: 100%;
 }
 
 .header-text h1{
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 60px;
+  line-height: 80px;
 }
 
 .header-text p{
   font-size: 30px;
+  line-height: 50px;
+  margin-top: 40px;
 }
 
 code {
-  background-color: #fff1f2;
-  border: 1px solid #999;
-  padding: 3px;
+  background-color: #d6ebf2;
+  border: 1px solid #443233;
+  padding: 0px 15px 8px 15px;
 }
 
 .draw-font {
@@ -94,4 +97,79 @@ code {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.about-col-1 {
+  flex-basis: 45%;
+}
+
+.about-col-1 img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.about-col-2 {
+  flex-basis: 50%;
+}
+
+.about-col-2 p {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.subtitle {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+
+.tab-titles {
+  display: flex;
+  margin: 20px 0 40px 0;
+}
+
+.tab-links {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-links::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #3cb6b8;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+.tab-links.active-link::after {
+  width: 50%;
+}
+
+.tab-contents ul li {
+  list-style: none;
+  margin: 10px 0;
+  color: #443233;
+}
+
+.tab-contents ul li span {
+  font-size: 14px;
+  color: #3cb6b8;
+}
+
+/* hides all contents of tabs */
+.tab-contents {
+  display: none;
+}
+
+/* displays only contents of an active tab */
+.tab-contents.active-tab {
+  display: block;
 }
