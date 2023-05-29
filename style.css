@@ -830,3 +830,7 @@ code {
 .art:hover .layer-8 {
   height: 100%;
 }
+
+.italic-book-titles {
+  font-style: italic;
+}
