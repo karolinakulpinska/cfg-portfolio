@@ -15,6 +15,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
 
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/889719e2fa.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
   <div id="header">
@@ -29,6 +32,7 @@
           <li><a href="#">CONTACT</a></li>
         </ul>
       </nav>
+      
       <div class="header-text">
         <h1>
           Hi, I'm Karolina, <br> 
@@ -41,14 +45,19 @@
           functional websites, art, illustration and eating pizza.
         </p>
       </div>
+      <div class="home-welcome-btn">
+        <button class="welcome-btn">WELCOME</button>
+      </div>
     </div>
   </div>
+
   <!-- ABOUT -->
   <div id="about">
     <div class="container">
       <div class="row">
         <div class="about-col-1">
           <img src="./images/about-bg.png" alt="profile picture with colorful graphics">
+          
         </div>
         <div class="about-col-2">
           <h1 class="subtitle">Hello, my name is Karolina Kulpinska <br>
@@ -61,18 +70,20 @@
             <p class="tab-links" onclick="opentab('experience')">Experience</p>
             <p class="tab-links" onclick="opentab('education')">Education</p>
           </div>
+          <div class="about-contact-btn">
+            <button class="contact-btn">CONTACT NOW</button>
+          </div>
           <div class="tab-contents active-tab" id="skills">
             <ul>
               <li><span>Front-End Web Development</span><br>HTML/CSS/JavaScript</li>
+              <li><span>Back-End Web Development</span><br>Work In Progress...</li>
               <li><span>Graphic Design</span><br>Adobe Suite</li>
               <li><span>Illustration</span><br>Traditional/Digital Art</li>
             </ul>
           </div>
           <div class="tab-contents" id="experience">
             <ul>
-              <li><span>2023-current</span><br>Lorem ipsum dolor sit.</li>
-              <li><span>2022-2023</span><br>Amet consectetur adipisicing elit.</li>
-              <li><span>2021-2022</span><br>Impedit voluptate ex natus maxime nesciunt.</li>
+              <li><span>2023-current</span><br>Work In Progress...</li>
             </ul>
           </div>
           <div class="tab-contents" id="education">
@@ -83,12 +94,56 @@
               <li><span>2015</span><br>BA in Graphic Design at Academy of Fine Arts in Łódź, Poland</li>
             </ul>
           </div>
+          
         </div>
       </div>
 
     </div> 
   </div>
   
+  <!-- SKILLS -->
+  <div id="skill">
+    <div class="container">
+      <div class="row">
+        <div class="skills-col-1">
+          <h1 class="subtitle">Interested in working with me?</h1>
+          <div class="skills-contact-btn">
+            <button class="contactme-btn">CONTACT ME</button>
+          </div>
+        </div>
+          <div class="skills-col-2">
+            <div class="skills-list">
+              <div class="front-end">
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-End Web Development</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia ut dolorem iure? Debitis nam perferendis cumque dolore quae nostrum, ab animi veritatis quia, dolorem laudantium laborum eum iste. Architecto, laboriosam!</p>
+                <a class="light-link" href="#">Learn more</a>
+              </div>
+              <div class="back-end">
+                <i class="fa-solid fa-network-wired"></i>
+                <h2>Back-End Web Development</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, ipsa iste. Nihil autem hic ex quibusdam at labore libero deleniti culpa voluptate laudantium placeat asperiores nisi sapiente dolorum, quis porro.</p>
+                <a class="dark-link" href="#">Learn more</a>
+              </div>
+              <div class="graphic-design">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <h2>Graphic Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid illum, blanditiis similique ad nobis soluta quam nemo quos in delectus, a quidem quia sequi fugiat porro. Quasi numquam ab corrupti!</p>
+                <a class="light-link" href="#">Learn more</a>
+              </div>
+              <div class="illustration">
+                <i class="fa-solid fa-palette"></i>
+                <h2>Illustration</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quibusdam! Adipisci quisquam tempora praesentium voluptate, numquam magnam. Sed commodi iusto recusandae delectus, vitae eius quos, ea sit corporis cum quia.</p>
+                <a class="dark-link" href="#">Learn more</a>
+              </div>  
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
   <!-- JavaScript functions and variables -->
   <script>
     var tablinks = document.getElementsByClassName("tab-links");
