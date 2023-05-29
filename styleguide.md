@@ -1,15 +1,20 @@
 <!-- COLOUR PALETTE -->
 <!-- main -->
-background-color: hsla(41, 99%, 64%, 0.1);
-font-color: #383838;
-buttons: #FF621A;
+background-color: #ffffff;
+background-accent: #fff1f2;
+background-accent2: #f2e9e6;
+font-color: #443233;
+buttons: #ff974a;
 
 <!-- accents -->
-light-salmon: #FECBB4;
-deep-salmon: #FD9494;
-dirty-turqoise: #9CD3D1;
-dirty-green: #C5D39C;
-deep-yellow: #FEC548;
-dirty-blue: #94B6FF;
-pastel-purple: #D0CCFF;
-deep-blue: #2A7CE0;
+light-salmon: #ffa0a6;
+dark-salmon: #f45658;
+turquoise: #3cb6b8;
+powder-blue: #d6ebf2;
+light-blue: #9ddff3;
+orange: #ff974a;
+navy: #02437a;
+light-pink: #fe95a5;
+purple-grey: #8f8a9c;
+medium-yellow: #fec548;
+medium-blue: #2a7ce0;

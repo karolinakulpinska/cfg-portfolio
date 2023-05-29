@@ -6,8 +6,8 @@
 }
 
 body {
-  background: #FFF6E3;
-  color: #383838;
+  background: #ffffff;
+  color: #443233;
 }
 
 #header {
@@ -44,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #383838;
+  color: #443233;
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -54,7 +54,7 @@ nav ul li a::after {
   content: '';
   width: 0;
   height: 3px;
-  background: #FEC548;
+  background: #fec548;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -75,7 +75,7 @@ width: 100%;
 }
 
 code {
-  background-color: hwb(0 100% 0%);
+  background-color: #fff1f2;
   border: 1px solid #999;
   padding: 3px;
 }
