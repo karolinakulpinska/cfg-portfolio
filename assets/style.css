@@ -907,7 +907,7 @@ form input, form textarea {
   width: 100%;
   border: 0;
   outline: none;
-  background: #262626;
+  background: #443233;
   padding: 15px;
   margin: 15px 0;
   color: #ffffff;
@@ -929,4 +929,9 @@ form input, form textarea {
 
 .copyright i {
   color: red;
+}
+
+/* CSS for small screens */
+@media only screen and (max-width: 600px) {
+  
 }
