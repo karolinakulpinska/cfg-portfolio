@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #ffffff;
   color: #443233;
@@ -933,5 +937,5 @@ form input, form textarea {
 
 /* CSS for small screens */
 @media only screen and (max-width: 600px) {
-  
+
 }
