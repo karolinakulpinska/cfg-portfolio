@@ -18,7 +18,7 @@ I've also made sure that the application:
 * is interactive (JavaScript);
 * follows best practices for file structure and naming conventions as well as class/id naming conventions, indentation, quality comments, etc.
 
-Link to deployed application: 
+Link to deployed application: https://karolinakulpinska.github.io/cfg-portfolio/ 
 
 ## Screenshot of the initial wireframe design:
 
