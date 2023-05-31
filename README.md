@@ -7,7 +7,7 @@ As a final project of The Intro to Web Dev Kickstarter by CodeFirstGirls I have 
 The website should include:
 * A minimum of 2 HTML web pages and one external CSS file;
 * A website wireframe;
-* A CSS framework (in this case Bootstrap);
+* A CSS framework (in this case Favicon);
 * All links should be working;
 * Basic user interaction (ie: hover, submit form, action on click);
 * Adhere to UI/UX rules.
