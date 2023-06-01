@@ -873,7 +873,7 @@ code {
 }
 
 .contact-right {
-  flex-basis: 50%;
+  flex-basis: 60%;
   margin-top: 31%;
 }
 
@@ -905,6 +905,7 @@ code {
 .contact-left form {
   width: 100%;
   margin-top: 25%;
+  margin-left: -30%;
 }
 
 form input, form textarea {
@@ -933,9 +934,4 @@ form input, form textarea {
 
 .copyright i {
   color: red;
-}
-
-/* CSS for small screens */
-@media only screen and (max-width: 600px) {
-
 }
